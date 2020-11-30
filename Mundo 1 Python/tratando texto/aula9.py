@@ -44,3 +44,20 @@ frase.split()  # separa nos espaços e gera uma lista
 
 '-'.join(frase)  # Junta a lista com um separador -
 # Curso-em-Video-Python
+
+# Pratica
+
+frase = '   Curso em Video Python   '
+# print(frase[3])
+# print(frase[3:13])
+# print(frase[:15])
+# print(frase[1:15:2])
+# print(frase[::2])
+
+# print(frase.count('o'))
+# print(len(frase.strip()))
+
+# print(frase.replace('Python', 'Android'))
+# print('Curso' in frase)
+# print(frase.find('Curso'))
+print(frase.split())
