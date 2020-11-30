@@ -5,4 +5,4 @@ print(nome.lower())
 
 print(len(nome.replace(' ', '')))
 nnome = nome.split()
-print(len(nnome[1]))
+print(len(nnome[0]))
