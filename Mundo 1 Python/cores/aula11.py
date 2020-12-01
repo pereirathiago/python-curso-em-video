@@ -49,7 +49,8 @@ b = 5
 print(f'Os valores são \033[32m{a}\033[m e \033[31m{b}\033[m')'''
 nome = 'thiago'
 cores = {'limpa': '\033[m',
-'azul': '\033[34m',
-'amarelo': '\033[33m',
-'pretobranco': '\033[7;30m'}
-print('Olá! Muito prazer em te conhecer, {}{}{}'.format(cores['amarelo'], nome, cores['limpa']))
+         'azul': '\033[34m',
+         'amarelo': '\033[33m',
+         'pretobranco': '\033[7;30m'}
+print('Olá! Muito prazer em te conhecer, {}{}{}'.format(
+    cores['amarelo'], nome, cores['limpa']))
